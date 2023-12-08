@@ -33,7 +33,7 @@
               </thead>
               <tbody>
                 <?php
-                include "../toko-buku/conf/conn.php";
+                include "../BUKUUU/conf/conn.php";
                 $id = $_GET['id'];
                 $no = 0;
                 $query = mysqli_query($koneksi, "SELECT * FROM detail_penjualan WHERE id_penjualan = $id ")
